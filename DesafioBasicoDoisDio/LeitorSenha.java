@@ -3,8 +3,11 @@ package DesafioBasicoDoisDio;
 import java.io.IOException;
 import java.util.Scanner;
 
-/*Escreva um programa que repita a leitura de uma senha atÈ que ela seja v·lida. Para cada leitura de senha incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for informada corretamente deve ser impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta È o valor 2002.
- * */
+/*Escreva um programa que repita a leitura de uma senha at√© que ela seja v√°lida.
+Para cada leitura de senha incorreta informada, escrever a mensagem "Senha Invalida".
+Quando a senha for informada corretamente deve ser impressa a mensagem "Acesso Permitido" e o algoritmo encerrado.
+Considere que a senha correta √© o valor 2002.
+ */
  
 
 public class LeitorSenha {
@@ -15,7 +18,8 @@ public class LeitorSenha {
 		int senha;
 		senha = leitor.nextInt();
 
-		while (senha != 2002) {
+		while (senha != 2002) 
+		{
 			System.out.println("Senha Invalida");
 			senha = leitor.nextInt();
 		}
